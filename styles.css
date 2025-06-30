@@ -1,0 +1,144 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 47px;
+    margin-bottom: 178px;
+    margin-left: 42px;
+    margin-right: 0;
+}
+
+.link-header {
+    color: #17233D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    cursor: pointer;
+    margin-right: 32px;
+    text-align: center;
+}
+
+.button-header {
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    width: 124px;
+    height: 51px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1px;
+     cursor: pointer;
+}
+
+.Wide-logo{
+    width: 595.178px;
+    height: 500.005px;
+    flex-shrink: 0;
+    display: inline-block;
+    margin-left: 121px;
+}
+
+section{
+    display: inline-block;
+    margin-left: 96.83px;
+}
+
+h1{
+    color: #161A49;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.596px;
+}
+
+p{
+    color: #4B505A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    width: 493px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+a{
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+@media screen and (max-width: 800px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  header {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .link-header {
+    display: none;
+  }
+
+  .button-header {
+    display: block;
+    margin-left: 380px;
+    margin-top: -10%;
+
+  }
+
+  .Wide-logo {
+  order: 2;
+  max-width: 90%;
+  height: auto;
+  margin: 30px auto 0 auto; /* isso centraliza horizontalmente */
+  display: block;
+  }
+
+  section {
+    order: 1; /* texto primeiro */
+    text-align: center;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+ h1 {
+  font-size: 30px;
+  line-height: 34px;
+  margin-bottom: 15px; 
+  width: 100%; 
+}
+
+p {
+  font-size: 19px; 
+  line-height: 30px; 
+  margin-bottom: 15px;
+  width: 100%; 
+ 
+}
+
+a {
+  font-size: 19px; 
+  line-height: 23px;
+  display: inline-block; 
+  width: 100%; 
+}
+}
